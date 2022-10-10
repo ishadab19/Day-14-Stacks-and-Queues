@@ -7,8 +7,8 @@ public class Queue {
 		list.addFirst(data);
 
 	}
-	public void pop()
-	{
+
+	public void deQueue() {
 		list.deleteFirst();
 	}
 
@@ -23,7 +23,13 @@ public class Queue {
 		queue.enQueue(30);
 		queue.enQueue(56);
 		queue.display();
-				
+		queue.deQueue();
+		queue.display();
+		queue.deQueue();
+		queue.display();
+		queue.deQueue();
+		queue.display();
+
 	}
 
 }
