@@ -1,10 +1,10 @@
 package com.ds.StacksQueue;
 
-public class Stack {
+public class Queue {
 	LinkedList list = new LinkedList();
 
-	public void push(Object data) {
-		list.addLast(data);
+	public void enQueue(Object data) {
+		list.addFirst(data);
 
 	}
 	public void pop()
@@ -18,18 +18,11 @@ public class Stack {
 
 	public static void main(String[] args) {
 		System.out.println("welcome to Stack and Queue Data Structure");
-		Stack stack = new Stack();
-		stack.push(56);
-		stack.push(30);
-		stack.push(70);
-		stack.display();
-		stack.pop();
-		stack.display();
-		stack.pop();
-		stack.display();
-		stack.pop();
-		stack.display();
-		
+		Queue queue = new Queue();
+		queue.enQueue(70);
+		queue.enQueue(30);
+		queue.enQueue(56);
+		queue.display();
 				
 	}
 
