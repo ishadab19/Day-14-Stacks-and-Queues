@@ -15,10 +15,10 @@ public class Stack {
 	public static void main(String[] args) {
 		System.out.println("welcome to Stack and Queue Data Structure");
 		Stack queue = new Stack();
-		queue.push(56);
-		queue.push(30);
-		queue.push(70);
-		queue.display();
+		stack.push(56);
+		stack.push(30);
+		stack.push(70);
+		stack.display();
 		
 				
 	}
