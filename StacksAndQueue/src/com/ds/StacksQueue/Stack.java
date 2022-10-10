@@ -7,6 +7,10 @@ public class Stack {
 		list.addLast(data);
 
 	}
+	public void pop()
+	{
+		list.deleteFirst();
+	}
 
 	public void display() {
 		list.display();
@@ -14,11 +18,17 @@ public class Stack {
 
 	public static void main(String[] args) {
 		System.out.println("welcome to Stack and Queue Data Structure");
-		Stack queue = new Stack();
-		queue.push(56);
-		queue.push(30);
-		queue.push(70);
-		queue.display();
+		Stack stack = new Stack();
+		stack.push(56);
+		stack.push(30);
+		stack.push(70);
+		stack.display();
+		stack.pop();
+		stack.display();
+		stack.pop();
+		stack.display();
+		stack.pop();
+		stack.display();
 		
 				
 	}
