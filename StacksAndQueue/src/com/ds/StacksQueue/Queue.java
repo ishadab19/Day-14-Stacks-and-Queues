@@ -3,16 +3,14 @@ package com.ds.StacksQueue;
 public class Queue {
 	LinkedList list = new LinkedList();
 
-	public void enQueue(Object data) {
+	public void enQueue(Object data) 
+	{
 		list.addFirst(data);
 
 	}
-	public void pop()
+	
+	public void display() 
 	{
-		list.deleteFirst();
-	}
-
-	public void display() {
 		list.display();
 	}
 
