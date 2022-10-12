@@ -1,6 +1,6 @@
 package com.ds.StacksQueue;
 import java.util.*;
-public class LinkedList {
+public class LinkedList{
 	Node head;
 	class Node
 	{
