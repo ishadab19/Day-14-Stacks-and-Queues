@@ -6,7 +6,7 @@ public class Queue {
 	public void enQueue(Object data) {
 		list.addFirst(data);
 
-	}
+	 }
 
 	public void display() {
 		list.display();
